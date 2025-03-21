@@ -1,35 +1,45 @@
 # Regression-analysis-for-stock-market
 
+Regression Analysis for Stock Prediction
+
 # Objective
 
-To create a web scraper application integrated with Large Language Models (LLMs) for processing and summarizing scraped data.
-
-# Summary
-
-Developed a web scraper integrated with LLMs using BeautifulSoup, Requests, and LlamaIndex to extract and summarize web data. Built a Flask-based backend and an interactive HTML/CSS frontend for seamless user interaction. Implemented web search capabilities to dynamically locate and process relevant web pages.
+To perform stock price prediction using Linear Regression and LSTM models.
 
 # Detailed Procedure
 
-Web Scraping: Use Python libraries like BeautifulSoup and Requests to extract data from web pages.
+Data Collection: Gather historical stock price data from reliable sources.
 
-LLM Integration: Utilize LlamaIndex for web scraping and Ollama for processing and summarizing open-ended data.
+Data Preprocessing:
 
-Data Processing: Integrate LLMs to analyze, structure, and summarize the scraped information.
+Handle missing values.
 
-Backend Development: Implement a Flask-based backend to handle scraping tasks and process user queries.
+Scale the data for better model performance.
 
-Frontend Development: Create an HTML/CSS interface to initiate web scraping (e.g., selecting a webpage) and display the results.
+Split the dataset into training and testing sets.
 
-Web Search Integration: Allow users to enter a topic, search the web for relevant pages, and scrape the selected webpage.
+Linear Regression Implementation: Develop a regression model to predict future stock prices.
+
+LSTM Model Development: Design and train an LSTM model for time-series stock price prediction.
+
+Model Evaluation: Compare the accuracy and performance of Linear Regression and LSTM models.
+
+Flask Backend: Implement a Flask-based API to serve model predictions.
+
+Frontend Development: Create a user-friendly interface to visualize stock predictions using charts and graphs.
 
 # Technologies Used
 
 Python
 
-BeautifulSoup & Requests (Web Scraping)
+Pandas & NumPy (Data Processing)
 
-LlamaIndex & Ollama (LLM Processing)
+Scikit-learn (Linear Regression)
 
-Flask (Backend Development)
+TensorFlow/Keras (LSTM Model)
 
-HTML/CSS (Frontend Interface)
+Matplotlib & Seaborn (Data Visualization)
+
+Flask (Backend API)
+
+HTML/CSS & JavaScript (Frontend UI)
